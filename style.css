@@ -1,0 +1,25 @@
+/*Joshua Brotman Profile CSS layout*/
+
+p,h1,h2,h3{font-family: 'Quicksand', sans-serif !important;}
+
+.small {
+    font-variant: small-caps;
+  }
+
+  .glow {
+   
+    
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #0f0, 0 0 8px #0f0, 0 0 10px #0f0, 0 0 12px #0f0, 0 0 16px #0f0;
+    }
+    to {
+      text-shadow: 0 0 4px #fff, 0 0 8px #0e8, 0 0 12px #0e8, 0 0 16px #0e8, 0 0 20px #0e8, 0 0 24px #0e8, 0 0 28px #0e8;
+    }
+  }
